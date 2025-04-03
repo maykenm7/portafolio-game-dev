@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeison Martinez | Game Developer (Unity)</title>
+    <meta name="description"
+        content="Portafolio profesional de Yeison Mayken Martinez Cuenca, Game Developer especializado en Unity">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+</head>
+
+<body>
+    <!-- Dark Mode Toggle -->
+    <div class="dark-mode-toggle">
+        <input type="checkbox" id="darkModeToggle">
+        <label for="darkModeToggle" class="toggle-label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <span class="toggle-ball"></span>
+        </label>
+    </div>
+
+    <!-- Header / Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title glitch" data-text="Yeison Martinez">Yeison Martinez</h1>
+            <h2 class="hero-subtitle">Game Developer <span class="typed"></span></h2>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+                <a href="#contact" class="btn btn-secondary">Contacto</a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="navbar-brand">YM</a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#home" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">Sobre Mí</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <button class="navbar-toggler">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">Sobre <span>Mí</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>¡Hola! Soy <strong>Yeison Mayken Martinez Cuenca</strong>, un apasionado <strong>Game
+                            Developer</strong> especializado en Unity con experiencia en desarrollo 2D y 3D.</p>
+                    <p>Soy una persona <strong>proactiva</strong>, con gran capacidad para <strong>trabajar en
+                            equipo</strong> y siempre con <strong>apertura al aprendizaje</strong> de nuevas tecnologías
+                        y metodologías.</p>
+                    <p>Mi enfoque principal es el desarrollo de <strong>videojuegos</strong> y <strong>aplicaciones
+                            interactivas</strong> en Unity, creando experiencias inmersivas y divertidas para los
+                        usuarios.</p>
+                    <div class="about-buttons">
+                        <a href="CV (Tercera Entrega).pdf" class="btn btn-primary" download="CV-Yeison-Martinez.pdf">
+                            <i class="fas fa-download"></i> Descargar CV
+                        </a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="profile.jpg" alt="Yeison Martinez" class="profile-img">
+                        <div class="pixel-corners"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+        <div class="container">
+            <h2 class="section-title">Mis <span>Habilidades</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-unity"></i>
+                    </div>
+                    <h3 class="skill-title">Unity</h3>
+                    <p class="skill-description">Desarrollo de juegos 2D/3D, implementación de mecánicas de juego,
+                        física y AI.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="skill-title">C#</h3>
+                    <p class="skill-description">Programación de scripts para Unity, desarrollo de lógica de juego y
+                        sistemas complejos.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3 class="skill-title">Git/GitHub</h3>
+                    <p class="skill-description">Control de versiones, trabajo colaborativo y gestión de proyectos.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3 class="skill-title">Game Design</h3>
+                    <p class="skill-description">Diseño de mecánicas de juego, balanceo y creación de experiencias
+                        divertidas.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="skill-title">Mobile Dev</h3>
+                    <p class="skill-description">Optimización de juegos para dispositivos móviles y adaptación de
+                        controles táctiles.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="skill-title">Teamwork</h3>
+                    <p class="skill-description">Trabajo colaborativo con artistas, diseñadores y otros desarrolladores.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Mis <span>Proyectos</span></h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="2d">2D</button>
+                <button class="filter-btn" data-filter="3d">3D</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="3d">
+                    <a href="https://maykenm7.itch.io/animales3d" target="_blank" class="project-wrapper-link">
+                        <div class="project-image">
+                            <img src="Animales3D.png" alt="Animales3D">
+                            <div class="project-overlay">
+                                <span class="project-play-text">
+                                    <i class="fas fa-gamepad"></i> Jugar en Itch.io
+                                </span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Animales3D</h3>
+                            <p class="project-description">Muévete a la izquierda con la tecla A, a la derecha con la
+                                tecla D y dispara con la tecla Espacio a los animales.
+                            </p>
+                            <div class="project-tech">
+                                <span>Unity</span>
+                                <span>C#</span>
+                                <span>3D</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card" data-category="3d">
+                    <a href="https://maykenm7.itch.io/avioneta" target="_blank" class="project-wrapper-link">
+                        <div class="project-image">
+                            <img src="Avioneta.png" alt="Avioneta">
+                            <div class="project-overlay">
+                                <span class="project-play-text">
+                                    <i class="fas fa-gamepad"></i> Jugar en Itch.io
+                                </span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Avioneta</h3>
+                            <p class="project-description">Controla una avioneta y esquiva obstáculos en un vuelo
+                                desafiante. Prueba tus reflejos y supera tu propio récord. ¡Divertido, simple y
+                                adictivo! Subir (S), Bajar (W).
+                            </p>
+                            <div class="project-tech">
+                                <span>Unity</span>
+                                <span>C#</span>
+                                <span>3D</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card" data-category="2d">
+                    <a href="https://juliansdiaz.itch.io/corrupted-blood" target="_blank" class="project-wrapper-link">
+                        <div class="project-image">
+                            <img src="CorruptedBlood.png" alt="CorruptedBlood">
+                            <div class="project-overlay">
+                                <span class="project-play-text">
+                                    <i class="fas fa-gamepad"></i> Jugar en Itch.io
+                                </span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Corrupted Blood</h3>
+                            <p class="project-description">Eat those red Blood Cells!!!
+
+                                You are a parasite who recently entered an organic host. Your mission, to eat all the
+                                blood cells to infect them. But be careful, your activites caught the host's immune
+                                system's attention and the white blood cells are looking for you! Eat all the red blood
+                                cells before the white blood cells kill you to win!</p>
+                            <div class="project-tech">
+                                <span>Unity</span>
+                                <span>C#</span>
+                                <span>2D</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card" data-category="mobile">
+                    <a href="https://karojulicha.itch.io/countdown-in-the-oblivion" target="_blank"
+                        class="project-wrapper-link">
+                        <div class="project-image">
+                            <img src="Countdown_in_the_oblivion.png" alt="CountdownInTheOblivion">
+                            <div class="project-overlay">
+                                <span class="project-play-text">
+                                    <i class="fas fa-gamepad"></i> Jugar en Itch.io
+                                </span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Countdown in the oblivion</h3>
+                            <p class="project-description">Deberás explorar meticulosamente una serie de habitaciones
+                                temáticas mientras llevas una bomba activa que te obliga a mantenerte en movimiento
+                                constante, resuelve acertijos bajo la presión: si te detienes, explotas. Explora
+                                habitaciones temáticas, recupera fragmentos de tu pasado y descubre la verdad detrás del
+                                mecanismo que te condena. ¿Podrás mantenerte en movimiento el tiempo suficiente para
+                                resolver los cada enigma ... ?</p>
+                            <div class="project-tech">
+                                <span>Unity</span>
+                                <span>C#</span>
+                                <span>3D</span>
+                                <span>Mobile</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Project 5 -->
+                <div class="project-card" data-category="3d">
+                    <a href="https://maykenm7.itch.io/descenso-de-objetos" target="_blank" class="project-wrapper-link">
+                        <div class="project-image">
+                            <img src="Descenso_de_Objetos.png" alt="DescensoDeObjetos">
+                            <div class="project-overlay">
+                                <span class="project-play-text">
+                                    <i class="fas fa-gamepad"></i> Jugar en Itch.io
+                                </span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Descenso de Objetos</h3>
+                            <p class="project-description">¡Pon a prueba tus reflejos en este adictivo juego de clics!
+                                Haz clic en los objetos antes de que caigan al suelo y acumula la mayor cantidad de
+                                puntos posible.
+
+                                📌 Cómo jugar:
+
+                                Toca rápidamente los objetos para evitar que caigan.
+                                Cada objeto tiene un valor diferente:
+                                🥠 Galleta → +3 puntos
+                                🥪 Sándwich → +2 puntos
+                                🍷 Botella de vino → +1 punto
+                                💀 Cráneo → -1 punto (¡Evítalo!)
+                                🎮 Modos de juego:
+
+                                Fácil: Un reto relajado para empezar.
+                                Medio: Ritmo más acelerado, pon a prueba tus reflejos.
+                                Difícil: Solo para los jugadores más veloces.</p>
+                            <div class="project-tech">
+                                <span>Unity</span>
+                                <span>C#</span>
+                                <span>3D</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Project 6 -->
+                <div class="project-card" data-category="3d">
+                    <a href="https://andyfrankoo95.itch.io/final-impact-apocalyptic-escape" target="_blank"
+                        class="project-wrapper-link">
+                        <div class="project-image">
+                            <img src="FinalImpactApocalypticEscape.png" alt="FinalImpactApocalypticEscape">
+                            <div class="project-overlay">
+                                <span class="project-play-text">
+                                    <i class="fas fa-gamepad"></i> Jugar en Itch.io
+                                </span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Final Impact - Apocalyptic Escape</h3>
+                            <p class="project-description">The world is on the brink of destruction, and only you can
+                                escape! In this intense 3D racing game, take control of a modified vehicle and race
+                                against time to reach a safe refuge before a meteor shower devastates the city. With
+                                only 3 lives, each collision with a flaming meteor brings you closer to disaster. Can
+                                you dodge obstacles, manage your time, and keep your vehicle intact to achieve
+                                salvation?</p>
+                            <div class="project-tech">
+                                <span>Unity</span>
+                                <span>C#</span>
+                                <span>3D</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Project 7 -->
+                <div class="project-card" data-category="3d">
+                    <a href="https://maykenm7.itch.io/fuerza-de-salto" target="_blank" class="project-wrapper-link">
+                        <div class="project-image">
+                            <img src="FuerzaDeSalto.png" alt="FuerzaDeSalto">
+                            <div class="project-overlay">
+                                <span class="project-play-text">
+                                    <i class="fas fa-gamepad"></i> Jugar en Itch.io
+                                </span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Fuerza de Salto</h3>
+                            <p class="project-description">Salta para evitar los muros y no perder con la tecla espacio.
+                            </p>
+                            <div class="project-tech">
+                                <span>Unity</span>
+                                <span>C#</span>
+                                <span>3D</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Project 8 -->
+                <div class="project-card" data-category="3d">
+                    <a href="https://maykenm7.itch.io/isla-orbital" target="_blank" class="project-wrapper-link">
+                        <div class="project-image">
+                            <img src="IslaOrbital.png" alt="IslaOrbital">
+                            <div class="project-overlay">
+                                <span class="project-play-text">
+                                    <i class="fas fa-gamepad"></i> Jugar en Itch.io
+                                </span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Isla Orbital</h3>
+                            <p class="project-description">¡Bienvenido a Isla Orbital!
+                                Sumérgete en una emocionante aventura en una isla llena de peligros, desafíos y
+                                power-ups. Controla una esfera ágil y demuestra tus habilidades para moverte, esquivar
+                                enemigos y sobrevivir en este entorno dinámico y desafiante.
+                            </p>
+                            <div class="project-tech">
+                                <span>Unity</span>
+                                <span>C#</span>
+                                <span>3D</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="github-repos">
+                <h3>Mis Repositorios en GitHub</h3>
+                <div class="repos-container" id="githubRepos">
+                    <!-- GitHub repos will be loaded here via API -->
+                </div>
+                <a href="https://github.com/maykenm7?tab=repositories" class="btn btn-outline" target="_blank">
+                    <i class="fab fa-github"></i> Ver más en GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="project-modal" id="projectModal">
+        <div class="modal-container">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-content">
+                <div class="modal-image">
+                    <img src="" alt="" id="modalImage">
+                    <div class="modal-gallery">
+                        <!-- Gallery items will be added here -->
+                    </div>
+                </div>
+                <div class="modal-info">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalDescription"></p>
+                    <div class="modal-tech" id="modalTech"></div>
+                    <div class="modal-features">
+                        <h3>Características</h3>
+                        <ul id="modalFeatures"></ul>
+                    </div>
+                    <div class="modal-links">
+                        <a href="#" class="btn btn-primary" id="modalDemoLink" target="_blank">
+                            <i class="fas fa-play"></i> Ver Demo
+                        </a>
+                        <a href="#" class="btn btn-outline" id="modalCodeLink" target="_blank">
+                            <i class="fab fa-github"></i> Ver Código
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contáct<span>ame</span></h2>
+            <div class="contact-content">
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Asunto">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">YM</a>
+                    <p>Game Developer especializado en Unity</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#about">Sobre Mí</a></li>
+                        <li><a href="#skills">Habilidades</a></li>
+                        <li><a href="#projects">Proyectos</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Sígueme</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/maykenm7" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/yeison-mayken-martinez-cuenca/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://maykenm7.itch.io/" target="_blank" class="icon-link" title="Itch.io"><i
+                                class="fab fa-itch-io"></i></a>
+                        <a href="https://wa.me/573015894913" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Yeison Mayken Martinez Cuenca. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+    <script src="github-api.js"></script>
+    <!-- Typed.js for typing animation -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+
+</html>
